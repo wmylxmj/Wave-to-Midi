@@ -13,7 +13,7 @@ ffmpeg -i input.mp3 -f wav output.wav
 ***
 
 ### 制作正弦波音源
-由于时频转换的基波为正弦波，因此要还原音频的声音，音源一定要使用正弦波
+由于时频转换的基波为正弦波，因此要还原音频的声音，音源一定要使用正弦波  
 可以由wavSF.py生成正弦波的wav文件然后通过[Polyphone](https://www.polyphone-soundfonts.com/)来制作音源文件.
 
 ***
