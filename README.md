@@ -1,22 +1,25 @@
 # Wave-to-Midi
-A tool for converting .wav to .midi
+.wav到.mid的转换工具
 
 ***
 
-### Generate the midi file
-First, convert the audio to .wav file.
+### 转换midi文件
+首先将任意格式的音频转为wav文件，例如
 ```
 ffmpeg -i input.mp3 -f wav output.wav
 ```
-Then set the file path in wav2midi.py and run the program, you will get a midi file.
+然后在wav2midi.py中设置文件输入输出路径，然后得到midi文件
 
 ***
 
-### Make the sound font file
-To play the midi, a sound font of sine wave is needed. 
-The .wav file of the sine wave can be obtained from wavSF.py and you can make the sound font file by [polyphone](https://www.polyphone-soundfonts.com/).
+### 制作正弦波音源
+由于时频转换的基波为正弦波，因此要还原音频的声音，音源要使用正弦波
+可以由wavSF.py生成正弦波的wav文件然后通过[polyphone](https://www.polyphone-soundfonts.com/)来制作音源文件.
 
 ***
 
-### Set the sound font
-[OmniMidi](https://github.com/KeppySoftware/OmniMIDI/releases) is recommended to set the sound font.
+### 设置音源
+推荐[OmniMidi](https://github.com/KeppySoftware/OmniMIDI/releases)来设置音源.
+
+***
+
