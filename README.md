@@ -3,12 +3,11 @@ A tool for converting .wav to .midi
 
 ***
 
+### Generate the midi file
 First, convert the audio to .wav file.
 ```
 ffmpeg -i input.mp3 -f wav output.wav
 ```
-
-***
 Then set the file path in wav2midi.py and run the program, you will get a midi file.
 
 ***
