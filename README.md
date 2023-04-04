@@ -26,3 +26,8 @@ ffmpeg -i input.mp3 -f wav output.wav
 ### 推荐的midi播放器
 - [MIDITrail](http://miditrail.osdn.jp/Windows/MANUAL.en.html)
 - [Kiva](https://github.com/arduano/Kiva)
+
+***
+
+### 笔记
+- MIDI velocity 与 输出振幅之间的关系 [参考论文](https://www.cs.cmu.edu/~rbd/papers/velocity-icmc2006.pdf)
