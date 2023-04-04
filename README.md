@@ -30,7 +30,7 @@ ffmpeg -i input.mp3 -f wav output.wav
 ***
 
 ### Demo
-![Demo](demo.png)
+![Demo](demo.png#pic_center)
 
 ***
 
