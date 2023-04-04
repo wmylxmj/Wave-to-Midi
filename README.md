@@ -3,10 +3,10 @@ convert .wav to .midi
 
 ***
 
-convert audio to .wav
+Convert audio to .wav
 ```
 ffmpeg -i input.mp3 -f wav output.wav
 ```
 
 ***
-then set the file path in wav2midi.py and run the program
+Then set the file path in wav2midi.py and run the program
