@@ -23,6 +23,6 @@ ffmpeg -i input.mp3 -f wav output.wav
 
 ***
 
-###推荐的midi播放器
+### 推荐的midi播放器
 - [MIDITrail](http://miditrail.osdn.jp/Windows/MANUAL.en.html)
 - [Kiva](https://github.com/arduano/Kiva)
