@@ -3,7 +3,7 @@
 
 ***
 
-### 转换midi文件
+### 生成midi文件
 首先使用ffmpeg工具将任意格式的音频转为wav文件，例如.mp3转.wav
 ```
 ffmpeg -i input.mp3 -f wav output.wav
