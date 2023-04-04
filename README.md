@@ -31,4 +31,3 @@ ffmpeg -i input.mp3 -f wav output.wav
 
 ### 笔记
 - MIDI velocity 与 输出振幅之间的关系 [参考论文](https://www.cs.cmu.edu/~rbd/papers/velocity-icmc2006.pdf)
-
