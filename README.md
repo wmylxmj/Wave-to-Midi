@@ -3,7 +3,7 @@ convert .wav to .midi
 
 ***
 
-first convert audio to .wav
+first, convert the audio to .wav
 ```
 ffmpeg -i input.mp3 -f wav output.wav
 ```
